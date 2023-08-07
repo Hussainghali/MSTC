@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(mstc.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.menu {
+    width: 400px;
+    padding-left: 350px;
+    height: 70px;
+
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, ;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+
+}
+
+.nav-item:hover {
+    color: rgb(244, 176, 4);
+
+}
+
+.active {
+    color: rgb(244, 176, 4);
+
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    margin-top: 200px;
+
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, ;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+.content h1 {
+    font-family: 'Times New Roman', ;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: rgb(244, 176, 4);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: white;
+    transition: .2s ease;
+
+}
+
+
+.content .tn {
+    width: 1200px;
+    color: rgb(244, 176, 4);
+
+}
+
+img {
+    width: 150px;
+    padding-left: 20px;
+    padding-top: 35px;
+    border: 70px;
+
+}
+
+.About h1 {
+    width: 1200px;
+    color: rgb(244, 176, 4);
+    font-size: 50px;
+    padding-top: 2cm;
+    padding-left: 2cm;
+}
+
+.About .par2 {
+    padding: 30px;
+    color: white;
+    text-decoration: solid;
+    line-height: 30px;
+
+}
+
+.join {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    margin-top: 35px;
+}
+
+
+.join h1 {
+    font-family: 'Times New Roman', ;
+    font-size: 50px;
+    margin-top: 2%;
+    letter-spacing: 2px;
+}
+
+.join .tn {
+    width: 1200px;
+    color: rgb(244, 176, 4);
+}
+
+.join .par3 {
+
+    padding: 30px;
+    color: white;
+    text-decoration: solid;
+    line-height: 30px;
+
+}
+
+form {
+    margin-left: 20px;
+}
+
+.join form input {
+
+    width: 35%;
+    height: 15px;
+    padding: 5px;
+    border: none;
+    border: 2px solid rgb(43, 41, 41);
+    border-radius: 8px;
+    outline: none;
+    background-color: azure;
+
+}
+
+.join form label {
+
+    display: flex;
+    margin-top: 17px;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 170px;
+    color: rgb(244, 176, 4);
+}
+
+.bt1 {
+    padding: 45px;
+    padding-left: 15px;
+
+}
+
+.fm {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(mstc.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 180vh;
+    position: relative;
+
+}
+
+.fmt {
+
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(244, 176, 4);
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+
+}
+
+.bio {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.data {
+    padding-left: 150px;
+
+
+}
+
+
+.data input {
+
+    width: 80%;
+    height: 15px;
+    padding: 5px;
+    border: none;
+    border: 2px solid rgb(43, 41, 41);
+    border-radius: 8px;
+    outline: none;
+    background-color: azure;
+
+}
+
+.data label {
+
+    display: flex;
+    margin-top: 17px;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 0px;
+    color: white;
+}
+
+.classes {
+
+    width: 100px;
+    height: 40px;
+    background: rgb(244, 176, 4);
+    border: 50px;
+    margin-top: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.data .sel {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.sub {
+    width: 100px;
+    height: 40px;
+    background: rgb(244, 176, 4);
+    border: none;
+    margin-left: 200px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.sub a {
+
+    text-decoration: none;
+    color: white;
+    transition: .2s ease;
+}
+
+.bb {
+    padding-top: 30px;
+}
+
+.back {
+
+    width: 100px;
+    height: 40px;
+    background: rgb(244, 176, 4);
+    border: none;
+    margin-left: 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.back a {
+    text-decoration: none;
+    color: white;
+    transition: .2s ease;
+}
+
+.log {
+    padding-left: 145px;
+
+
+}
+
+.log input {
+
+    width: 20%;
+    height: 15px;
+    padding: 5px;
+    border: none;
+    border: 2px solid rgb(43, 41, 41);
+    border-radius: 8px;
+    outline: none;
+    background-color: azure;
+
+}
+
+
+.log label {
+
+    display: flex;
+    margin-top: 17px;
+    font-size: 20px;
+    padding-left: 50px;
+    color: white;
+}
+
+.logb {
+
+    width: 160px;
+    height: 40px;
+    background: rgb(244, 176, 4);
+    border: none;
+    margin-left: 200px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+
+
+}
+
+.logb a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.dt {
+    font-size: 35px;
+    padding-top: 2%;
+    padding-left: 60px;
+    color: rgb(244, 176, 4);
+
+}
+
+.location {
+    margin: 40px;
+    color: white;
+    line-height: 25px;
+
+}
+
+.location .add {
+    color: rgb(244, 176, 4);
+}
+
+
+
+
+
+
